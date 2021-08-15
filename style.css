@@ -1,3 +1,39 @@
+/* Global */
+: root {
+  /* Color */
+  --color-white: #ffffff;
+  --color-light-white: #eee;
+  --color-dark-white: #bdbdbd;
+  --color-yellow: #faf5bb;
+  --color-dark-yellow: #fae67f;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #616161;
+  --color-light-grey: #7c7979;
+  --color-blue: #b6e0fa;
+  --color-green: #bcf7c5;
+  --color-purple: #f7befa;
+  --color-black: #000;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-midium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+  /* Size */
+}
+
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
 .logo {
   width: 28px;
   height: 28px;
