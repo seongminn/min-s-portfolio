@@ -207,6 +207,9 @@ p {
 }
 
 .major__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 170px;
   height: 170px;
   line-height: 170px;
@@ -220,8 +223,6 @@ p {
 
 .major__icon i {
   transition: all var(--animation-duration) ease;
-  width: 150px;
-  height: 150px;
 }
 
 .major__icon i:hover {
@@ -489,6 +490,28 @@ p {
   transform: scale(1.1);
   color: var(--color-purple);
 }
+
+/* Scroll */
+.arrow-up {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  color: var(--color-white);
+  border-radius: 50%;
+  background-color: var(--color-green);
+  opacity: 0;
+  transition: opacity var(--animation-duration) ease-in;
+  pointer-events: none;
+}
+
+.arrow-up.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 /* For below 768px screen width */
 @media screen and (max-width: 768px) {
   .navbar__toggle-btn {
