@@ -102,7 +102,7 @@ p {
   justify-content: space-between;
   background-color: transparent;
   align-items: center;
-  padding: 16px;
+  padding: 0 16px;
   color: var(--color-white);
   transition: all var(--animation-duration) ease-in;
   z-index: 1;
@@ -110,7 +110,7 @@ p {
 
 #navbar.navbar--dark {
   background-color: var(--color-dark-yellow);
-  padding: 16px;
+  padding: 2px 16px;
 }
 
 .navbar__logo {
@@ -141,7 +141,7 @@ p {
 }
 
 .logo {
-  width: 24px;
+  width: 54px;
   vertical-align: middle;
 }
 
@@ -172,6 +172,15 @@ p {
   height: 250px;
   border-radius: 50%;
   border: 2px solid var(--color-light-white);
+}
+
+.home__avatar__border {
+  width: 2000px;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  border-collapse: unset;
+
 }
 
 .home__title,
